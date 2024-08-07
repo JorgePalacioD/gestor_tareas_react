@@ -1,0 +1,71 @@
+.frm-task {
+  width: 83vw;
+  height: max-content;  
+  display: flex;
+  padding: 1rem 0 1rem 0;
+  flex-direction: column;  
+  align-items: center;  
+  position: fixed;
+  top: 10.5rem;
+  background-color: #545b6e;
+  z-index: -1;         
+}
+
+.group-title-task, .group-description-task {  
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem;
+  align-items: center;
+  color: #fff;  
+  font-size: 1.2rem; 
+  border: none; 
+  
+}
+
+fieldset > label {
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.group-description-task > input,
+.group-title-task > input {  
+  width: 14rem;
+  height: 0.5rem;  
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: 300;
+  border: none;
+  border-radius: 2px;
+}
+
+.group-title-task > input {
+  width: 27.5rem;
+  position: relative;
+  left: 2rem;  
+}
+
+.group-description-task > input {
+  width: 30rem;
+}
+
+.btn-new-task {
+  width: 10rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  border: solid 2px #fff;
+  background-color: var(--btn-color);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-new-task:hover,
+.btn-new-task:active {
+  background-color: #fff;
+  border: solid 2px #a477ff;
+  color: #a477ff;
+  transition: 0.5s;
+}
+

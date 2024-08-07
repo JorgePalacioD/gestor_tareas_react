@@ -1,0 +1,18 @@
+.info-tasks {
+  width: 100%;  
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  font-size: 2rem;  
+}
+
+.task-pending {
+  color: #ff0000;
+  font-weight: 800;
+}
+
+.task-done {
+  color: #008000;
+  font-weight: 800;
+}
+
